@@ -23,7 +23,7 @@ export default function Dashboard({axios, dashboardName}) {
       }))
     }, [setResize, timer])
 
-  console.log(dashboardName)
+  // console.log(dashboardName)
 
   useEffect(() => {
     window.addEventListener('resize', triggerResize, {passive: true})

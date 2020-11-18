@@ -6,7 +6,7 @@ export default function EChart ({option, resize}) {
   let [chartEl, setChartEl] = useState(chart)
 
   useEffect(() => {
-    console.log(chartEl.current)
+    // console.log(chartEl.current)
     if (resize) {
       chartEl.resize()
     }
